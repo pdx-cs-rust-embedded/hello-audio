@@ -1,9 +1,10 @@
 [package]
 name = "hello-audio"
 version = "0.1.0"
-edition = "2021"
+edition = "2024"
 
 [dependencies]
 cortex-m-rt = "0.7"
-microbit-v2 = "0.13.0"
-panic-halt = "0.2.0"
+embedded-hal = "1.0.0"
+microbit-v2 = "0.15.1"
+panic-halt = "1.0.0"
